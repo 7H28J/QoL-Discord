@@ -11,20 +11,20 @@
 
 /* Server Emote list size */
 #app-mount .emojiImage-1hZi2F {
-  height: var(--emote-size);
-  width: var(--emote-size);
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 /* Changes default Emote height/width without a message attached */
 #app-mount .emoji.jumboable {
-  height: var(--emote-size);
-  width: var(--emote-size);
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 /* Changes the emote height/width when used in a message */
 #app-mount .emoji {
-  height: var(--emote-size);
-  width: var(--emote-size);
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 /* Reaction Emote size */
