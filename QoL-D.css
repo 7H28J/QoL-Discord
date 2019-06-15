@@ -99,7 +99,7 @@
 
 /* Voice Chat Buttons (Mute/Deafen) */
 #app-mount .iconButton-3V4WS5 {
-  display: var(--display-vc-options)
+  display: var(--display-vc-options);
 }
 
 /* Gift Nitro Button */
