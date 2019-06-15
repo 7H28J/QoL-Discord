@@ -96,12 +96,6 @@
 
 */
 
-
-/* Voice Chat Buttons (Mute/Deafen) */
-#app-mount .iconButton-3V4WS5 {
-  display: var(--display-vc-options);
-}
-
 /* Gift Nitro Button */
 #app-mount .buttonWrapper-1ZmCpA[tabindex="2"] {
   display: var(--gift-nitro-button);
