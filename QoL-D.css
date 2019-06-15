@@ -11,26 +11,26 @@
 
 /* Server Emote list size */
 #app-mount .emojiImage-1hZi2F {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: var(--emote-size);
+  width: var(--emote-size);
 }
 
 /* Changes default Emote height/width without a message attached */
 #app-mount .emoji.jumboable {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: var(--emote-size);
+  width: var(--emote-size);
 }
 
 /* Changes the emote height/width when used in a message */
 #app-mount .emoji {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: var(--emote-size);
+  width: var(--emote-size);
 }
 
 /* Reaction Emote size */
 #app-mount .reaction-1ELvT8 .emoji {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: var(--react-emote-size);
+  height: var(--react-emote-size);
 }
 
 /* Better Chat font sizes to go with the emotes */
