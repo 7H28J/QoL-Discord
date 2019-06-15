@@ -1,0 +1,113 @@
+
+
+
+
+
+/* 
+
+    BETTER EMOTES 
+
+*/
+
+/* Server Emote list size */
+#app-mount .emojiImage-1hZi2F {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+/* Changes default Emote height/width without a message attached */
+#app-mount .emoji.jumboable {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+/* Changes the emote height/width when used in a message */
+#app-mount .emoji {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+/* Reaction Emote size */
+#app-mount .reaction-1ELvT8 .emoji {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Better Chat font sizes to go with the emotes */
+#app-mount .markup-2BOw-j {
+  font-size: 1.063rem;
+  line-height: 1;
+}
+
+
+
+
+
+/*
+
+    SQUARE AVATARS
+
+    I need to sort these out and do it properly
+
+*/
+
+#app-mount [mask*="url"],
+#app-mount .mask-3OgeRz,
+#app-mount .partyMembers-2HCFEF,
+#app-mount .partyMember-2q4Jxq,
+#app-mount .maskProfile-1ObLFT,
+#app-mount .mask-3OgeRz {
+  -webkit-mask: none;
+  mask: none;
+  border-radius: none;
+}
+
+#app-mount .wrapper-25eVIn,
+#app-mount .wrapper-1Rf91z .svg-1X37T1,
+#app-mount .tabBadge-3smxHS,
+#app-mount .wrapper-232cHJ,
+#app-mount .avatarDefault-35WC3R,
+#app-mount .avatarSpeaking-1wJCNq,
+#app-mount .avatarUploaderInner-3UNxY3,
+#app-mount .circleIconButton-jET_ig,
+#app-mount .guildsError-b7zR5H,
+#app-mount .image-33JSyf,
+#app-mount .base-PmTxvP,
+#app-mount .wrapper-2F3Zv8,
+#app-mount .image-33JSyf,
+#app-mount .avatarSmall-3ACRaI,
+#app-mount .inner-1W0Bkn,
+#app-mount .partyMembers-2HCFEF,
+#app-mount .partyMemberOverflow-1tfvpb,
+#app-mount .maskProfile-1ObLFT,
+#app-mount .mask-3OgeRz {
+  border-radius: 7.5% !important;
+}
+
+
+
+
+
+/* 
+
+  Togglable Features
+  To EDIT these, please use the theme.css file
+  Do NOT change the ones below
+
+*/
+
+
+/* Voice Chat Buttons (Mute/Deafen) */
+#app-mount .iconButton-3V4WS5 {
+  display: var(--display-vc-options)
+}
+
+/* Gift Nitro Button */
+#app-mount .buttonWrapper-1ZmCpA[tabindex="2"] {
+  display: var(--gift-nitro-button);
+}
+
+/* Gif Button */
+#app-mount .buttonWrapper-1ZmCpA[tabindex="3"] {
+  display: var(--gif-button);
+}
